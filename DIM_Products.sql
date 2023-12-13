@@ -1,7 +1,7 @@
 -- Cleansed DIM_Products Table --
 SELECT 
   p.[ProductKey], 
-  p.[ProductAlternateKey] AS ProductItemCode, 
+  p.[ProductAlternateKey] AS ProductItemCode,
  
   p.[EnglishProductName] AS [Product Name], 
   ps.EnglishProductSubcategoryName AS [Sub Category], -- Joined in from Sub Category Table
